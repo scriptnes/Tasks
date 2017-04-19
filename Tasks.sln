@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitExchange", "BitExchange\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitExchange-v2", "BitExchange-v2\BitExchange-v2.csproj", "{5EE32B1D-5829-4A73-B02D-CD3C31F8798A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmptyTest", "EmptyTest\EmptyTest.csproj", "{BCC85A7D-7621-46A6-9F82-1DE9F1C46D49}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{5EE32B1D-5829-4A73-B02D-CD3C31F8798A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EE32B1D-5829-4A73-B02D-CD3C31F8798A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EE32B1D-5829-4A73-B02D-CD3C31F8798A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCC85A7D-7621-46A6-9F82-1DE9F1C46D49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCC85A7D-7621-46A6-9F82-1DE9F1C46D49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCC85A7D-7621-46A6-9F82-1DE9F1C46D49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCC85A7D-7621-46A6-9F82-1DE9F1C46D49}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
