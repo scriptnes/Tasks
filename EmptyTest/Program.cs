@@ -7,6 +7,7 @@ namespace EmptyTest
         static void Main()
         {
             Console.WriteLine("Only for test");
+            //
 
         }
     }
