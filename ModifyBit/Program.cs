@@ -6,7 +6,6 @@ namespace ModifyBit
     {
         static void Main()
         {
-
             ulong N = ulong.Parse(Console.ReadLine()); //N will always be a valid 64-bit unsigned integer.
             int P = int.Parse(Console.ReadLine()); // P will always be between in the range [0, 64]
             int v = int.Parse(Console.ReadLine()); // v will be always either 0 or 1
@@ -25,7 +24,6 @@ namespace ModifyBit
             }
 
             Console.WriteLine(mBit);
-
         }
 
     }

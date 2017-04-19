@@ -39,13 +39,5 @@ namespace BitExchange
             Console.WriteLine(num);
         }
 
-        //static uint BitExchanger(uint number, int index)
-        //{
-        //    uint bit = 0;
-        //    int mask = 1 << index;
-        //    bit = (uint)(number & mask) >> index;
-
-        //    return bit;
-        //}
     }
 }

@@ -15,9 +15,7 @@ namespace LongSequence
                 else
                 {
                     Console.WriteLine((-1) * i);
-                }
-
-                
+                }         
             }
         }
     }

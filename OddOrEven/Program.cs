@@ -6,7 +6,6 @@ namespace OddOrEven
     {
         static void Main()
         {
-
             int n = int.Parse(Console.ReadLine());
 
             if (n % 2 == 0)
@@ -17,8 +16,6 @@ namespace OddOrEven
             {
                 Console.WriteLine("odd {0}", n);
             }
-
-
         }
     }
 }

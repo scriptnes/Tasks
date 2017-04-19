@@ -6,7 +6,6 @@ namespace PointInACircle
     {
         static void Main()
         {
-
             double inputX = double.Parse(Console.ReadLine());
             double inputY = double.Parse(Console.ReadLine());
 
@@ -26,8 +25,7 @@ namespace PointInACircle
             else
             {
                 Console.WriteLine("yes {0:0.00}", c);
-            }
-            
+            }          
         }
     }
 }

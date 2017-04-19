@@ -2,7 +2,7 @@
 
 namespace MoonGravity
 {
-    class Program
+    class Startup
     {
         static void Main()
         {

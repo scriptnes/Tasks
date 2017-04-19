@@ -2,7 +2,7 @@
 
 namespace PrintSequence
 {
-    class Program
+    class Startup
     {
         static void Main()
         {
@@ -13,7 +13,6 @@ namespace PrintSequence
                 Console.WriteLine(digit[i]);
 
             }
-
         }
     }
 }

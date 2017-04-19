@@ -13,7 +13,6 @@ namespace Trapezoids
             double Area = ((a + b) * h )/ 2;
 
             Console.WriteLine("{0:0.0000000}", Area);
-            //
         }
     }
 }

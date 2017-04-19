@@ -2,7 +2,7 @@
 
 namespace _3rdBit
 {
-    class Program
+    class Startup
     {
         static void Main()
         {

@@ -18,10 +18,7 @@ namespace ThirdDigit
             else
             {
                 Console.WriteLine("false {0}", n2);
-            }
-
-           
-
+            }         
         }
     }
 }

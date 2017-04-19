@@ -2,7 +2,7 @@
 
 namespace Age
 {
-    class Program
+    class Startup
     {
         static void Main()
         {
@@ -12,7 +12,6 @@ namespace Age
             int afterTen = yearOld + 10;
             Console.WriteLine(yearOld);
             Console.WriteLine(afterTen);
-
         }
     }
 }

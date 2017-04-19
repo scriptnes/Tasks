@@ -2,11 +2,10 @@
 
 namespace FourDigits
 {
-    class Program
+    class Startup
     {
         static void Main()
         {
-
             string number = Console.ReadLine();
             char[] numberAsChar = number.ToCharArray();
             int sum = 0;
@@ -21,7 +20,6 @@ namespace FourDigits
             Console.WriteLine(d[3] + d[2] + d[1] + d[0]);
             Console.WriteLine(d[3] + d[0] + d[1] + d[2]);
             Console.WriteLine(d[0] + d[2] + d[1] + d[3]);
-
         }
     }
 }

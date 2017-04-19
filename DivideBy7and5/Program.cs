@@ -6,7 +6,6 @@ namespace DivideBy7and5
     {
         static void Main()
         {
-
             int n = int.Parse(Console.ReadLine());
 
             if (n % 5 == 0 && n % 7 == 0)
@@ -17,8 +16,6 @@ namespace DivideBy7and5
             {
                 Console.WriteLine("false {0}", n);
             }
-
-
         }
     }
 }
