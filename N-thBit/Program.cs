@@ -4,23 +4,15 @@ namespace N_thBit
 {
     class Startup
     {
-        static void Main()
+        private static void Main()
         {
-            ulong p = ulong.Parse(Console.ReadLine());
-            byte n = byte.Parse(Console.ReadLine());
+            var inputP = ulong.Parse(Console.ReadLine());
+            var inputN = byte.Parse(Console.ReadLine());
 
-            int mask = 1 << n;
-            ulong nThBit = (p & (ulong)mask) >> n;
+            var mask = 1 << inputN;
+            var nThBit = (inputP & (ulong)mask) >> inputN;
 
-            if (nThBit == 0)
-            {
-                Console.WriteLine(0);
-            }
-            else
-            {
-                Console.WriteLine(1);
-            }
-
+            Console.WriteLine(nThBit == 0 ? 0 : 1);
         }
 
     }

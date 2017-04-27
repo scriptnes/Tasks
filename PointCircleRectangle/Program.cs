@@ -2,42 +2,29 @@
 
 namespace PointCircleRectangle
 {
-    class Startup
+    internal class Startup
     {
-        static void Main()
+        private static void Main()
         {
-            double x = double.Parse(Console.ReadLine());
-            double y = double.Parse(Console.ReadLine());
-            double R = 1.5;
-            double xO = 1;
-            double yO = 1;
-            double c = 0;
+            var inputX = double.Parse(Console.ReadLine());
+            var inputY = double.Parse(Console.ReadLine());
+            const double circleRad = 1.5;
+            const int xO = 1;
+            const int yO = 1;
+            var c = 0;
             
-            c = Math.Sqrt(Math.Pow(x-xO, 2) + Math.Pow(y-yO, 2));
-            bool isInCircle = (c <= R);
-            bool isInRectangle = (x >= -1 && x <= 5) && (y >= -1 && y <= 1);    
+            c = (int) Math.Sqrt(Math.Pow(inputX-xO, 2) + Math.Pow(inputY-yO, 2));
+            var isInCircle = (c <= circleRad);
+            var isInRectangle = (inputX >= -1 && inputX <= 5) && (inputY >= -1 && inputY <= 1);    
 
             if (isInCircle)
             {
-                if (isInRectangle)
-                {
-                    Console.WriteLine("inside circle inside rectangle");
-                }
-                else
-                {
-                    Console.WriteLine("inside circle outside rectangle");
-                }
+                Console.WriteLine(isInRectangle ? "inside circle inside rectangle" : "inside circle outside rectangle");
             }
             else
             {
-                if (isInRectangle)
-                {
-                    Console.WriteLine("outside circle inside rectangle");
-                }
-                else
-                {
-                    Console.WriteLine("outside circle outside rectangle");
-                }
+                Console.WriteLine(
+                    isInRectangle ? "outside circle inside rectangle" : "outside circle outside rectangle");
             }
 
         }

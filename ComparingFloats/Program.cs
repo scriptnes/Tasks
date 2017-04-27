@@ -2,23 +2,15 @@
 
 namespace ComparingFloats
 {
-    class Startup
+    internal class Startup
     {
         static void Main()
         {
-            double a = double.Parse(Console.ReadLine());
-            double b = double.Parse(Console.ReadLine());
-            double eps = 0.000001;
+            var a = double.Parse(Console.ReadLine());
+            var b = double.Parse(Console.ReadLine());
+            var eps = 0.000001;
 
-            if (Math.Abs(a-b) > eps)
-            {
-                Console.WriteLine("false");
-            }
-            else
-            {
-                Console.WriteLine("true");
-            }
-
+            Console.WriteLine(Math.Abs(a - b) > eps ? "false" : "true");
         }
     }
 }

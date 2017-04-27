@@ -4,18 +4,11 @@ namespace OddOrEven
 {
     class Startup
     {
-        static void Main()
+        private static void Main()
         {
-            int n = int.Parse(Console.ReadLine());
+            var n = int.Parse(Console.ReadLine());
 
-            if (n % 2 == 0)
-            {
-                Console.WriteLine("even {0}", n);
-            }
-            else
-            {
-                Console.WriteLine("odd {0}", n);
-            }
+            Console.WriteLine(n % 2 == 0 ? "even {0}" : "odd {0}", n);
         }
     }
 }

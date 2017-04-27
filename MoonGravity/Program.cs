@@ -2,13 +2,13 @@
 
 namespace MoonGravity
 {
-    class Startup
+    internal class Startup
     {
-        static void Main()
+        private static void Main()
         {
-            float w = float.Parse(Console.ReadLine());
+            var inputW = float.Parse(Console.ReadLine());
 
-            float calc = w * 17 / 100f;
+            var calc = inputW * 17 / 100f;
             Console.WriteLine("{0:0.000}", calc);
         }
     }

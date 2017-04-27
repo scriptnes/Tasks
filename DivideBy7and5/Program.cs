@@ -2,20 +2,16 @@
 
 namespace DivideBy7and5
 {
-    class Startup
+    internal class Startup
     {
         static void Main()
         {
-            int n = int.Parse(Console.ReadLine());
+            var n = int.Parse(Console.ReadLine());
 
             if (n % 5 == 0 && n % 7 == 0)
-            {
                 Console.WriteLine("true {0}", n);
-            }
             else
-            {
                 Console.WriteLine("false {0}", n);
-            }
         }
     }
 }
