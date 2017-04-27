@@ -1,26 +1,19 @@
 ﻿using System;
 
-namespace _3rdBit
+namespace Find3rdBit
 {
-    class Startup
+    internal class Startup
     {
         static void Main()
         {
 
-            int digit = int.Parse(Console.ReadLine());
+            var digit = 0;
+            digit = int.Parse(Console.ReadLine());
 
-            int mask = 1 << 3;
-            int _3rdBit = (digit & mask) >> 3;
+            var mask = 1 << 3;
+            var find3RdBit = (digit & mask) >> 3;
 
-            if (_3rdBit == 0)
-            {
-                Console.WriteLine(0);
-            }
-            else
-            {
-                Console.WriteLine(1);
-            }
-            
+            Console.WriteLine(find3RdBit == 0 ? 0 : 1);
         }
 
 

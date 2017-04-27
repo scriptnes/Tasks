@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitExchange-v2", "BitExchan
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmptyTest", "EmptyTest\EmptyTest.csproj", "{BCC85A7D-7621-46A6-9F82-1DE9F1C46D49}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Find3rdBit", "Find3rdBit", "{06A7231E-AD73-474E-9220-C59F92A128E1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -162,5 +164,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C6E0F98A-193D-4F00-AAD8-00503FCDABE6} = {06A7231E-AD73-474E-9220-C59F92A128E1}
 	EndGlobalSection
 EndGlobal
